@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository;
 import com.tcc.inf2fm.myproject2fteste.model.Cliente;
 
 @Repository
-public interface ClienteRepository extends JpaRepository<Cliente, ID>{
+public interface ClienteRepository extends JpaRepository<Cliente, Long>{
 
 }

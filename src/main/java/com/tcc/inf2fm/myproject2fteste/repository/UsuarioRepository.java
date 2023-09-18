@@ -5,6 +5,6 @@ import org.springframework.stereotype.Repository;
 import com.tcc.inf2fm.myproject2fteste.model.Usuario;
 
 @Repository
-public interface UsuarioRepository extends JpaRepository<Usuario, ID>{
+public interface UsuarioRepository extends JpaRepository<Usuario, Long>{
 
 }
